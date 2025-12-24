@@ -1,4 +1,4 @@
-from enum import Enum, Flag
+from enum import Enum
 import inquirer
 
 class State (Enum):
@@ -34,7 +34,7 @@ def select_opcode(state:State)->Opcode:
     return Opcode[opcode]
 
 
-def select_parameters(opcode:Opcode)->int:
+def select_parameters(opcode:Opcode)->str:
     cascade_choices = [0x93, 0x95, 0x97]
     match opcode.name:
         case "REQA":
