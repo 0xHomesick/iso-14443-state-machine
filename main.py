@@ -41,7 +41,7 @@ def select_parameters(opcode:Opcode)->str:
             pass
         case "WUPA":
             pass
-        case "HTLA":
+        case "HLTA":
             return hex(0x00)
         case "ANTICOLLISION":
             return inquirer.list_input("Select parameter", choices=[hex(param) for param in cascade_choices])
