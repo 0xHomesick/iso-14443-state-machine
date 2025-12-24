@@ -1,5 +1,5 @@
-# ISO 1443 State Machine
-A representation of the ISO 1443 state machine. 
+# ISO 14443 State Machine
+A representation of the ISO 14443 state machine. 
 
 Built to learn the ISO 14443 protocol's methods.
 
